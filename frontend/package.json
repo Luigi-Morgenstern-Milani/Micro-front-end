@@ -1,0 +1,15 @@
+{
+  "name": "campusconnect-mfe",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Campus Connect — Microfrontends (Vite Module Federation)",
+  "scripts": {
+    "install:all": "npm install && npm install --prefix shell && npm install --prefix mfe-usuario && npm install --prefix mfe-carona && npm install --prefix mfe-apartment && npm install --prefix mfe-chat",
+    "build:remotes": "npm run build --prefix mfe-usuario && npm run build --prefix mfe-carona && npm run build --prefix mfe-apartment && npm run build --prefix mfe-chat",
+    "test": "npm run test --prefix shell && npm run test --prefix mfe-usuario && npm run test --prefix mfe-carona && npm run test --prefix mfe-apartment && npm run test --prefix mfe-chat",
+    "start": "concurrently -n \"MFE-Usuario,MFE-Carona,MFE-Apartment,MFE-Chat,Shell\" -c \"blue,magenta,yellow,cyan,green\" \"npm run preview --prefix mfe-usuario\" \"npm run preview --prefix mfe-carona\" \"npm run preview --prefix mfe-apartment\" \"npm run preview --prefix mfe-chat\" \"npm run dev --prefix shell\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

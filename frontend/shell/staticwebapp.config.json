@@ -1,0 +1,15 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/assets/*", "/*.{css,js,ico,png,jpg,jpeg,gif,svg,webp,woff,woff2}"]
+  },
+  "globalHeaders": {
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET, HEAD, OPTIONS",
+    "Cache-Control": "public, max-age=0, must-revalidate"
+  },
+  "mimeTypes": {
+    ".js": "text/javascript",
+    ".json": "application/json"
+  }
+}
