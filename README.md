@@ -1,4 +1,5 @@
 # Campus Connect - Microfrontends
+Nome dos integrantes: André Gabriel Benato, Arthur Markowicz Lopes, Gustavo Tissot França, Luigi Morgenstern Milani
 
 Frontend no padrao de micro-frontends com **Vite + Module Federation + React**.
 O `shell` e o host: ele carrega cada modulo em tempo de execucao pelo
