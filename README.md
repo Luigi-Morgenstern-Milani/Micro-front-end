@@ -1,6 +1,6 @@
 # Micro-front-end
-Frontend (Microfrontends)
-Padrao da disciplina (Vite Module Federation). Detalhes em frontend/README.md.
+Nome dos integrantes: André Gabriel Benato, Arthur Markowicz Lopes, Gustavo Tissot França, Luigi Morgenstern Milani
+
 
 App	Pasta	Porta	Papel
 shell	frontend/shell/	3000	Host que carrega os remotes
